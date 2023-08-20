@@ -1,0 +1,86 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 9rem;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+
+    background: linear-gradient(90deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero h1 span {
+    color: #FFF;
+    background: none;
+    -webkit-text-fill-color: #FFF;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+}
+
+.hero p {
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-top: 2rem;
+}
+
+.hero button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    height: 2.625rem;
+    width: auto;
+    margin-top: 5rem;
+    padding: 0.8125rem 1.5rem;
+
+    background: linear-gradient(#141414, #141414) padding-box,
+        linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%) border-box;
+    border: 1px solid transparent;
+    border-radius: 6.25rem;
+
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.hero button span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+
+    background: linear-gradient(135deg,
+            #ffcf23 0%,
+            #ff6eb4 50.53%,
+            #45b9b0 97.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90rem;
+    height: 52.5625rem;
+    padding: 0rem 13rem;
+}
+
+.heroImage img {
+    height: 52.5625rem;
+    mix-blend-mode: lighten;
+}
