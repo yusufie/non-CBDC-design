@@ -1,5 +1,5 @@
 # non-CBDC-Design Live Demo
-https://non-cbdc-design.vercel.app/
+https://non-cbdc-design.netlify.app/
 
 
 # Figma Design
